@@ -56,5 +56,5 @@ def part2(instructions):
     return np.sum(grid)
 
 
-# print(part1(data))
+print(part1(data))
 print(part2(data))
