@@ -1,5 +1,4 @@
 import re
-import pprint as pp
 from collections import Counter
 
 with open('day04.input') as f:

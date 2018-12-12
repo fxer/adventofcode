@@ -9,7 +9,6 @@ grep -o -E '[a-z]+' day07.input | sort | uniq -u
 
 import re
 from collections import Counter
-import pprint
 
 with open('day07.input') as f:
     data = f.read()
