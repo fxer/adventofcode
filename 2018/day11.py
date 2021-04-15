@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-
-
 import numpy
-
 
 numpy.set_printoptions(threshold=numpy.nan, linewidth=numpy.nan)
 
@@ -42,6 +39,7 @@ class FuelCell():
 
         return grid
 
+
     def compute_numpy(self, x, y):
         """
         Let numpy populate its grid directly with a function callback
@@ -59,6 +57,7 @@ class FuelCell():
         Return power level of a single fuel cell
         """
         return self.grid[coords]
+
 
     def power_of_grid(self, coords, dimension=3):
         """
